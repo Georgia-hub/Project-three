@@ -1,6 +1,9 @@
 # Import words
+import random
+from words import words_index
 
-def get-words_index
+def get_word():
+    word = random.choice(words-index)
 
 # set lives 
 # start the game
