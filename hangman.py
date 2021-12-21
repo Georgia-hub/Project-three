@@ -4,6 +4,7 @@ from words import words_index
 
 def get_word():
     word = random.choice(words-index)
+    return word.uppercase()
 
 # set lives 
 # start the game
