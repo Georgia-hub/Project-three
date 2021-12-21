@@ -1,6 +1,6 @@
 # Import words
 
-def get-wor
+def get-words_index
 
 # set lives 
 # start the game
