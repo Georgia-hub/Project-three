@@ -8,7 +8,17 @@ def get_word():
 
 # set lives 
 # start the game
+
+def play(word):
+word_entered = "_" * len(word)
+guessed = False
+guessed_letters = []
+guessed_words = []
+lives = 6
+
 # choose words
+-
+
 # hide words with underscores
 # user import
 # if correct - reveal letter
