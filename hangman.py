@@ -10,16 +10,23 @@ def get_word():
 # start the game
 
 def play(word):
-word_entered = "_" * len(word)
+words_entered = "_" * len(word)
 guessed = False
 guessed_letters = []
 guessed_words = []
 lives = 6
 
+print("Let's begin")
+print(display_hangman(lives))
+print()
+
+
+
+
 # choose words
--
 
 # hide words with underscores
+
 # user import
 # if correct - reveal letter
 # else loose a life - diplay a line in hangman
