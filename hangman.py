@@ -21,9 +21,12 @@ def play(word):
     while game_over is False
     print(secret_word)
     guess = input("Please take a guess \n")
+# if correct - reveal letter
     if guess in word:
         print("it's in")
 
+# continue until lives have gone
+# if all letters are guessed then the man survives
         secret_word_listed = (secret_word)
         print(secret_word_listed)
         indices = [i for i letter in enumerate(word)
@@ -33,7 +36,8 @@ def play(word):
             secret_word = "".join(secret_word_listed)
         if "_" not in secret_word: 
         game_over = True
-
+# else loose a life - diplay a line in hangman
+# else loose and the man dies
     else:
         print("its not in")
         lives -=1
@@ -43,23 +47,14 @@ def play(word):
         game_over = True
 end_game(winner)
 
-def end_game(outcome):
-    
-
-    
-
-
-
-
-
-
-
-
-
 # user import
-# if correct - reveal letter
-# else loose a life - diplay a line in hangman
-# continue until lives have gone
-# if all letters are guessed then the man survives
-# else loose and the man dies
+def end_game(outcome):
+    if outcome:
+        is winner
+        print("you have won!")
+    else:
+        is looser
+        print("you have lost")
+
+
 # reset the game
