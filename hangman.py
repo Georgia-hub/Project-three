@@ -8,7 +8,8 @@ def get_word():
     return word.upper()
 
 # start the game
-# set lives 
+# set lives
+# hide words with underscores
 def play(word):
     game_over = False
     winner = True
@@ -17,18 +18,15 @@ def play(word):
     print(word)
     secret_word = "_" * len(word)
     lives = 6
+    while game_over is False
+    print(secret_word)
+    guess = input("Please take a guess \n")
 
 print("Let's begin")
 print(display_hangman(lives))
-print()
 
 
 
-
-
-# choose words
-
-# hide words with underscores
 
 # user import
 # if correct - reveal letter
