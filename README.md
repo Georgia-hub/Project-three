@@ -10,6 +10,9 @@ My plan was to creare a user freindly game, that also has a range of easy words 
 The game controls consit of a menu bar with 2 options to begin and play or reset the game. Also entering any letter in which the player has guessed the secret word to be.
 
 ### Game rules
+The player has to guess what the secret word is hidden by the underscores. The player will guess what letter they think may be in the word, if this is correct the letter will become visiable where this is placed in the word. If the player guesses all letters correctly then they have won game. If the player exceeds more than 6 wrong guesses then they will loose the game. The a
+
+have 6 lives, if they guess right the player will win. If the player guesses 
 
 ### User Goals
 
