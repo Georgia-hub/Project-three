@@ -7,5 +7,49 @@ My plan was to creare a user freindly game, that also has a range of easy words 
 # ** add image![hangman.png](docs/images/hangman.png)**
 
 ### Game controls 
-The game consits of a menu bar with 2 options to play or reset the game. Also entering the letter in which the player has guessed the secret word to be.
+The game controls consit of a menu bar with 2 options to begin and play or reset the game. Also entering any letter in which the player has guessed the secret word to be.
 
+### Game rules
+
+### User Goals
+
+### User Stories
+
+### Design Goals
+
+### Design Choices
+
+#### Color Scheme
+
+## **Features**
+
+## **Features to be added**
+
+## **Testing**
+
+### Responsiveness
+
+### LightHouse
+
+## **Bugs**
+
+### Fixed Bugs
+
+## **Technology Used**
+
+### Languages
+
+## **Deployment**
+I deployed my website on GitHub pages via the following:
+1. Go to repository in projects and select the **settings** tab.
+1. Near the bottom on the left side click on **pages** link.
+1. Click on **Source** and on the button (None) to gt the dropdwon menu.
+1. Click on **Main** and then click on **Save**.
+1. Once this message **Your site is ready to be published** appears this will confirm that this has been published.
+1. After a little amount of time the site will be published and this message will change to **Your site is published**.
+
+## **Credits**
+This website was designed by Georgia Kershsw.
+
+### Content
+This contains images and the process of the development of my Hangman game.
