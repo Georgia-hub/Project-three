@@ -51,10 +51,10 @@ end_game(winner)
 def end_game(outcome):
     if outcome:
         is winner
-        print("you have won!")
+        print("{secret_word} is correct, you have won!")
     else:
         is looser
-        print("you have lost")
+        print("{secret_word} is incorrect, you have lost")
 
 
 # reset the game
