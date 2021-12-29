@@ -15,6 +15,14 @@ def menu():
     print("[1], Reset game")
     print("[2], Exit the program.")
 
+menu()
+option = int(input("Please select an option: "))
+while option != 2:
+    if option == 0:
+        # Begin playing the game
+        # play(word)
+        print("let's play Hangman")
+
 
 # Import words
 import random
