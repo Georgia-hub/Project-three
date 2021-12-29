@@ -22,7 +22,7 @@ def play(word):
     print(secret_word)
     guess = input("Please take a guess \n")
     if guess in word:
-        print("it's correct")
+        print("it's in")
 
         secret_word_listed = (secret_word)
         print(secret_word_listed)
@@ -31,8 +31,26 @@ def play(word):
         for index in indices:
             secret_word_listed =[index] = guess
             secret_word = "".join(secret_word_listed)
-        if "_" not in secret_word:
+        if "_" not in secret_word: 
         game_over = True
+
+    else:
+        print("its not in")
+        lives -=1
+        print(lives)
+        if lives == 0
+        winner = False
+        game_over = True
+end_game(winner)
+
+def end_game(outcome):
+    
+
+    
+
+
+
+
 
 
 
