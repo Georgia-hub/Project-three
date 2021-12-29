@@ -40,6 +40,7 @@ def play(word):
     lives = 6
     while game_over is False
     print(secret_word)
+    print(hangman_lives(lives))
     guess = input("Please take a guess \n")
 # if correct - reveal letter
     if guess in word:
