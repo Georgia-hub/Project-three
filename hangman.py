@@ -1,32 +1,31 @@
-██╗░░██╗░█████╗░███╗░░██╗░██████╗░███╗░░░███╗░█████╗░███╗░░██╗
-██║░░██║██╔══██╗████╗░██║██╔════╝░████╗░████║██╔══██╗████╗░██║
-███████║███████║██╔██╗██║██║░░██╗░██╔████╔██║███████║██╔██╗██║
-██╔══██║██╔══██║██║╚████║██║░░╚██╗██║╚██╔╝██║██╔══██║██║╚████║
-██║░░██║██║░░██║██║░╚███║╚██████╔╝██║░╚═╝░██║██║░░██║██║░╚███║
-╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝░╚═════╝░╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝
-
- o
-/|\   /|\    |\    |
-/ \   / \   / \   / \  / \   /
-
 #game menu
 def menu():
     print("[0], Let's play")
     print("[1], Reset game")
-    print("[2], Exit the program.")
 
 menu()
 option = int(input("Please select an option: "))
-while option != 2:
-    if option == 0:
+while option == 0:
+        play(word) = True
         # Begin playing the game
         # play(word)
         print("let's play Hangman")
-
+    else:
+        option == 1:
+        play(word) = False
+        print("Reset game")
+        print()
+        menu()
+option = int(input("Please select an option: "))
+print("Thank you for playing")      
 
 # Import words
 import random
 from words import words_index
+
+# Import hangman lives
+import life
+from hangman import hangman_lives
 
 #choose words
 def get_word():
