@@ -21,9 +21,19 @@ def play(word):
     while game_over is False
     print(secret_word)
     guess = input("Please take a guess \n")
+    if guess in word:
+        print("it's correct")
 
-print("Let's begin")
-print(display_hangman(lives))
+        secret_word_listed = (secret_word)
+        print(secret_word_listed)
+        indices = [i for i letter in enumerate(word)
+                   if letter == guess]
+        for index in indices:
+            secret_word_listed =[index] = guess
+            secret_word = "".join(secret_word_listed)
+        if "_" not in secret_word:
+        game_over = True
+
 
 
 
