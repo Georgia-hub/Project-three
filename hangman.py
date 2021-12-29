@@ -1,21 +1,24 @@
+# Import words
+import random
+from words import words_index
+
+#choose words
+def get_word():
+    word = random.choice(words-index)
+    return word.upper()
+
 def play(word):
 words_entered = "_" * len(word)
-guessed = False
-guessed_letters = []
-guessed_words = []
-lives = 6
+   guessed = False
+   guessed_letters = []
+   guessed_words = []
+   lives = 6
 
 print("Let's begin")
 print(display_hangman(lives))
 print()
 
-# Import words
-import random
-from words import words_index
 
-def get_word():
-    word = random.choice(words-index)
-    return word.uppercase()
 
 # set lives 
 # start the game
