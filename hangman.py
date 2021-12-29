@@ -2,8 +2,7 @@
 def menu():
     print("[0], Let's play")
     print("[1], Reset game")
-
-menu()
+    menu():
 option = int(input("Please select an option: "))
 while option == 0:
         play(word) = True
@@ -22,10 +21,6 @@ print("Thank you for playing")
 # Import words
 import random
 from words import words_index
-
-# Import hangman lives
-import life
-from hangman import hangman_lives
 
 #choose words
 def get_word():
@@ -82,6 +77,31 @@ def end_game(outcome):
         print("{secret_word} is incorrect, you have lost")
 
         
-
+# hangman diplay of lives
+def hangman_lives(lives):
+    stages = ["""
+ O
+/|\
+/ \
+====""",
+"""
+/|\
+/ \
+====""",
+"""
+/|
+/ \
+====""",
+"""
+ |
+/ \
+====""",
+"""
+/ \
+====""",
+"""
+/
+====""",
+]
 
 # reset the game
