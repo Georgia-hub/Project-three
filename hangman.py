@@ -7,21 +7,22 @@ def get_word():
     word = random.choice(words-index)
     return word.upper()
 
+# start the game
+# set lives 
 def play(word):
-words_entered = "_" * len(word)
-   guessed = False
-   guessed_letters = []
-   guessed_words = []
-   lives = 6
+    game_over = False
+    winner = True
+    guessed_letters = []
+    guessed_words = []
+    print(word)
+    secret_word = "_" * len(word)
+    lives = 6
 
 print("Let's begin")
 print(display_hangman(lives))
 print()
 
 
-
-# set lives 
-# start the game
 
 
 
