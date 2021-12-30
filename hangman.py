@@ -30,6 +30,17 @@ def play(word):
            secret_word = "".join(secret_word_listed)
         if "_" not in secret_word: 
             game_over = True
+        
+        else:
+            print("It's not in")
+            lives -=1
+            print(lives)
+            if lives == 0:
+                winner = False
+                game_over = True
+        
+        if game_over:
+            end_game(winner, word)
 
 
 
