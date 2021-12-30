@@ -5,6 +5,19 @@ def get_word():
     word = random.choice(words_index)
     return word.upper()
 
+def play(word):
+    game_over = False
+    winner = True
+    guessed_letters = []
+    guessed_words = []
+    print(word)
+    secret_word = "_" * len(word)
+    lives = 5
+    while game_over is False:
+      print(secret_word)
+      print(hangman_lives(lives))
+      guess = input("Please take a guess \n").upper()
+      print(guess)
 
 
 #game menu
@@ -27,21 +40,7 @@ while option == 0:
 option = int(input("Please select an option: "))
 print("Thank you for playing")      
 
-# start the game
-# set lives
-# hide words with underscores
-def play(word):
-    game_over = False
-    winner = True
-    guessed_letters = []
-    guessed_words = []
-    print(word)
-    secret_word = "_" * len(word)
-    lives = 6
-    while game_over is False
-    print(secret_word)
-    print(hangman_lives(lives))
-    guess = input("Please take a guess \n")
+
 # if correct - reveal letter
     if guess in word:
         print("it's in")
