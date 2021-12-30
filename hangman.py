@@ -1,9 +1,11 @@
 import random
 from words import words_index
 """imports random words to use for the secrect word"""
+
 def get_word():
     word = random.choice(words_index)
     return word.upper()
+"""imports random words from words index and returns ouput in uppercase"""
 
 def play(word):
     game_over = False
@@ -18,7 +20,11 @@ def play(word):
       print(hangman_lives(lives))
       guess = input("Please take a guess \n").upper()
       print(guess)
-
+"""
+defines play word, the game is still going. 
+letters and words that are guessed are printed.
+Player only had 5 wrong tries before the end of the game.
+"""
       if guess in word:
         print("it's in")
         secret_word_listed = list(secret_word)
