@@ -43,32 +43,33 @@ Player only had 5 wrong tries before the end of the game.
 """
         else:
             print("It's not in")
-            lives -=1
+            lives -=2
             print(lives)
-            if lives == 0:
+            if lives == 1:
                 winner = False
                 game_over = True
-""" if the player looses a 1 life to display this and if the lives are equal to 0 then the game is over"""        
+    
         if game_over:
             end_game(winner, word)
-
+""" if the player looses a 2 life to display this and if the lives are equal to 1 then the game is over"""
 def menu():
-    print("[0], Let's play")
-    print("[1], Reset game")
-    
+    print("[1], Let's play")
+    print("[2], Reset game")
+""" menu display printed for the player to play or reet the game """    
     option = int(input("Please select an option: "))
-    if option == 0:
+    if option == 1:
         play(get_word())
         print("let's play Hangman")
-    elif option == 1:
-        
+    elif option == 2:
+"""if the player presses option 1 then a word is randomly picked, lets play comment printed and the game begins."""       
         print("Thank you for playing")  
         print("Reset game")
         print()
         menu()
+"""else if the player picks 2 then the a commnet deplays and the game is reset."""
     elif option == 2:
-        print(hangman_lives(0), hangman_lives(2))
-
+        print(hangman_lives(1), hangman_lives(2))
+        
 def end_game(outcome, word):
     if outcome is True:
         print((f"{word} is correct, you have won!"))
