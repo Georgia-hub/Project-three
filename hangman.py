@@ -1,3 +1,8 @@
+import random
+from words import words_index
+
+
+
 #game menu
 def menu():
     print("[0], Let's play")
@@ -18,9 +23,6 @@ while option == 0:
 option = int(input("Please select an option: "))
 print("Thank you for playing")      
 
-# Import words
-import random
-from words import words_index
 
 #choose words
 def get_word():
