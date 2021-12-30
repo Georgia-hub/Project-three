@@ -48,7 +48,7 @@ Player only had 5 wrong tries before the end of the game.
             if lives == 0:
                 winner = False
                 game_over = True
-        
+""" if the player looses a 1 life to display this and if the lives are equal to 0 then the game is over"""        
         if game_over:
             end_game(winner, word)
 
