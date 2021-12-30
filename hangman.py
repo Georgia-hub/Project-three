@@ -1,6 +1,10 @@
 import random
 from words import words_index
 
+def get_word():
+    word = random.choice(words_index)
+    return word.upper()
+
 
 
 #game menu
@@ -22,12 +26,6 @@ while option == 0:
         menu()
 option = int(input("Please select an option: "))
 print("Thank you for playing")      
-
-
-#choose words
-def get_word():
-    word = random.choice(words-index)
-    return word.upper()
 
 # start the game
 # set lives
