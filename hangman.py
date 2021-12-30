@@ -1,6 +1,6 @@
 import random
 from words import words_index
-
+"""imports random words to use for the secrect word"""
 def get_word():
     word = random.choice(words_index)
     return word.upper()
