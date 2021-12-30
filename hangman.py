@@ -60,26 +60,13 @@ def menu():
     elif option == 2:
         print(hangman_lives(0), hangman_lives(2))
 
+def end_game(outcome, word):
+    if outcome is True:
+        print((f"{word} is correct, you have won!"))
+        menu()
     else:
-        print("its not in")
-        lives -=1
-        print(lives)
-        if lives == 0
-        winner = False
-        game_over = True
-end_game(winner)
+        print(f"the word was {word}, you have lost
 
-# user import
-def end_game(outcome):
-    if outcome:
-        is winner
-        print("{secret_word} is correct, you have won!")
-    else:
-        is looser
-        print("{secret_word} is incorrect, you have lost")
-
-        
-# hangman diplay of lives
 def hangman_lives(lives):
     stages = ["""
  O
