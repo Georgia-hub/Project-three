@@ -36,7 +36,11 @@ Player only had 5 wrong tries before the end of the game.
            secret_word = "".join(secret_word_listed)
         if "_" not in secret_word: 
             game_over = True
-        
+"""
+    if word guessed corrrectly the word secret word and comment is dipayed.
+    power to i for i and the letter in looped over and counted times of doing until the letter is guessed.
+    then to join this the secrect word, if not the secret word then the game is over.
+"""
         else:
             print("It's not in")
             lives -=1
