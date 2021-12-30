@@ -20,10 +20,19 @@ def play(word):
       print(guess)
 
       if guess in word:
-      print("it's in")
-      secret_wordi_listed = (secret_word)
-      print(secret_word_listed)
-      
+        print("it's in")
+        secret_word_listed = (secret_word)
+        print(secret_word_listed)
+        indices = [i for i letter in enumerate(word)
+              if letter == guess]
+        for index in indices:
+            secret_word_listed[index] = guess
+           secret_word = "".join(secret_word_listed)
+        if "_" not in secret_word: 
+            game_over = True
+
+
+
 
 
 #game menu
@@ -46,19 +55,6 @@ while option == 0:
 option = int(input("Please select an option: "))
 print("Thank you for playing")      
 
-
-
-# continue until lives have gone
-# if all letters are guessed then the man survives
-        secret_word_listed = (secret_word)
-        print(secret_word_listed)
-        indices = [i for i letter in enumerate(word)
-                   if letter == guess]
-        for index in indices:
-            secret_word_listed =[index] = guess
-            secret_word = "".join(secret_word_listed)
-        if "_" not in secret_word: 
-        game_over = True
 # else loose a life - diplay a line in hangman
 # else loose and the man dies
     else:
