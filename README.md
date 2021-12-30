@@ -1,4 +1,4 @@
-# **Hangman**
+# Hangman
 
 ## **Planning Stage**
 ### Project Goals
@@ -58,7 +58,7 @@ I have tested my project along the way as i was writing my code. I run into a nu
 ### Responsiveness
 My website is completely responsive, fit for purpose and also fits to scale depeding on the device played on for maximum game play. I orginally had an issue with the restart function but in the end after using all my resources this was an extra symbol 
 
-### PEP8
+### Testing Validator
 I checked my code through PEP8 numuros times to make sure that all my code was clean with no errors.
 
 ## **Bugs**
