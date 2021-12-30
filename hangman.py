@@ -21,9 +21,9 @@ def play(word):
 
       if guess in word:
         print("it's in")
-        secret_word_listed = (secret_word)
+        secret_word_listed = list(secret_word)
         print(secret_word_listed)
-        indices = [i for i letter in enumerate(word)
+        indices = [i for i, letter in enumerate(word)
               if letter == guess]
         for index in indices:
             secret_word_listed[index] = guess
