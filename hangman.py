@@ -19,6 +19,12 @@ def play(word):
       guess = input("Please take a guess \n").upper()
       print(guess)
 
+      if guess in word:
+      print("it's in")
+      secret_wordi_listed = (secret_word)
+      print(secret_word_listed)
+      
+
 
 #game menu
 def menu():
@@ -41,9 +47,6 @@ option = int(input("Please select an option: "))
 print("Thank you for playing")      
 
 
-# if correct - reveal letter
-    if guess in word:
-        print("it's in")
 
 # continue until lives have gone
 # if all letters are guessed then the man survives
