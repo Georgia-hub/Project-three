@@ -49,19 +49,17 @@ def menu():
     
     option = int(input("Please select an option: "))
     if option == 0:
-        play(word) = True
+        play(get_word())
         print("let's play Hangman")
-    else:
-        option == 1:
-        play(word) = False
+    elif option == 1:
+        
+        print("Thank you for playing")  
         print("Reset game")
         print()
         menu()
-option = int(input("Please select an option: "))
-print("Thank you for playing")      
+    elif option == 2:
+        print(hangman_lives(0), hangman_lives(2))
 
-# else loose a life - diplay a line in hangman
-# else loose and the man dies
     else:
         print("its not in")
         lives -=1
