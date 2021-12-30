@@ -43,19 +43,13 @@ def play(word):
             end_game(winner, word)
 
 
-
-
-
-#game menu
 def menu():
     print("[0], Let's play")
     print("[1], Reset game")
-    menu():
-option = int(input("Please select an option: "))
-while option == 0:
+    
+    option = int(input("Please select an option: "))
+    if option == 0:
         play(word) = True
-        # Begin playing the game
-        # play(word)
         print("let's play Hangman")
     else:
         option == 1:
