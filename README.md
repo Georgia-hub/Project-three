@@ -15,18 +15,42 @@ The player has to guess what the secret word is hidden by the underscores. The p
 have 6 lives, if they guess right the player will win. If the player guesses 
 
 ### User Goals
+The user goals for the game is for the player to guess all the letters corretly and reveal the hidden word to win the game.
 
 ### User Stories
+* As a user I want the site to be fun and interactive.
+* As a user I want to be able to understand how to play easily.
+* As a user I want to be able to keep trying to better my score continusly.
+* As a user I want to be able to use the controls at ease.
+* As a user I want to be able to visually see the score.
 
 ### Design Goals
+The design goal was to create a functional hangman game that has a range of easy and complex words to guess correctly or loose if not guessed correctly. When the player looses a life the stick man also looses a body part untill the man is hung and game is over.
+* user friendly
+* challeneg the user
+* Hangman display of the stcik man loosing lives
+* Customisation possiblities
 
 ### Design Choices
+I decided to stay in line with traditail design for this game and created a stick man using ASCII art style.
+* A classic version of the game
+* A range easy and hard words
+* Hangman visually loosing lives
 
 #### Color Scheme
+I wanted this game to be like hangman 101 so i decided to not do a color scheme and leave this in it's raw colors.
 
 ## **Features**
+I created a menu for a feature at the begging of the game for the palyer to be able to commence playing the game or reset this again.
+- Reveals letters as you've guessed correctly
+- Random outcome choice for words picked
+- Menu option
 
 ## **Features to be added**
+Most projects are never finshed when a develper thinks they are. Our projects are constantly being improved for your development. For my next project i would like to add the following features:
+- Improved grapics
+- More content
+- Give the player an option to level up after winning so many rounds
 
 ## **Testing**
 
@@ -41,6 +65,7 @@ have 6 lives, if they guess right the player will win. If the player guesses
 ## **Technology Used**
 
 ### Languages
+Python
 
 ## **Deployment**
 I deployed my website on GitHub pages via the following:
