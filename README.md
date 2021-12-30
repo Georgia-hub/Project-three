@@ -53,15 +53,19 @@ Most projects are never finshed when a develper thinks they are. Our projects ar
 - Give the player an option to level up after winning so many rounds
 
 ## **Testing**
+I have tested my project along the way as i was writing my code. I run into a number of errors, spelling mistakes and coding errors. I was able to use google, course work and the slack supports to help give me an idea of my errors after trying to resoved myself.
 
 ### Responsiveness
+My website is completely responsive, fit for purpose and also fits to scale depeding on the device played on for maximum game play. I orginally had an issue with the restart function but in the end after using all my resources this was an extra symbol 
 
-### LightHouse
+### PEP8
+I checked my code through PEP8 numuros times to make sure that all my code was clean with no errors.
 
 ## **Bugs**
+During the development of Hangman i had a few bugs to overcome which were mostly mistakes.
 
 ### Fixed Bugs
-
+Firstly, i couldnt get the import function to work as i mispelt the method keyword in my code. 
 ## **Technology Used**
 
 ### Languages
