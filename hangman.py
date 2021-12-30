@@ -42,7 +42,6 @@ def play(word):
         if game_over:
             end_game(winner, word)
 
-
 def menu():
     print("[0], Let's play")
     print("[1], Reset game")
