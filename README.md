@@ -1,4 +1,4 @@
-# Hangman
+# Hangman Game
 
 ## **Planning Stage**
 ### Project Goals
@@ -53,23 +53,24 @@ Most projects are never finshed when a develper thinks they are. Our projects ar
 - Give the player an option to level up after winning so many rounds
 
 ## **Testing**
-I have tested my project along the way as i was writing my code. I run into a number of errors, spelling mistakes and coding errors. I was able to use google, course work and the slack supports to help give me an idea of my errors after trying to resoved myself.
+I checked my code through PEP8 numuros times to make sure that all my code was clean with no errors. The endgame outcome would not print if or else stament when i got to that stage on the game. I fixed this by using an f string, i also used the square brakets instead of the cury within teh fstring to use word that has been radomly selcted for the game, i corrected this.
+I have tested my project along the way as i was writing my code. I run into a number of errors, spelling mistakes and coding errors. I was able to use google, course work and the slack supports to help give me an idea of my errors after trying to resoved myself. I also was getting an error for .upper as i had wrote uppercase. in error, and my text wasn't being displayed in uppercase untill i corrected my error. Also when i used /n for a new line this wasnt appearing when tested as i havent put this in a string, i corrected this. Another common erros i was getting was tralling white space or not missing out spaces for the correct format. 
 
 ### Responsiveness
-My website is completely responsive, fit for purpose and also fits to scale depeding on the device played on for maximum game play. I orginally had an issue with the restart function but in the end after using all my resources this was an extra symbol 
+To test the responsiveness of the site, the page was tested through PEP8 and is completely responsive, fit for purpose. Also fits to scale depeding on the device played on for maximum game play. I orginally had an issue with the restart function but in the end after using all my resources this was an extra symbol. 
 
 ### Testing Validator
-I checked my code through PEP8 numuros times to make sure that all my code was clean with no errors.
+I checked my code through PEP8 numuros times to make sure that all my code was clean with no errors. 
 
 ## **Bugs**
-During the development of Hangman i had a few bugs to overcome which were mostly mistakes.
+During the development of Hangman i had a few bugs to overcome which were mostly mistakes. the main bugs were expected 2 blank lines found.
 
 ### Fixed Bugs
-Firstly, i couldnt get the import function to work as i mispelt the method keyword in my code. 
+Firstly, i couldnt get the import function to work as i mispelt the method keyword in my code. I had to remove all the unneeded spaces and put in spaces between my lines of code. The endgame outcome would not print if or else stament when i got to that stage on the game. I fixed this by using an f string, i also used the square brakets instead of the cury within teh fstring to use word that has been radomly selcted for the game, i corrected this.
 ## **Technology Used**
 
 ### Languages
-Python
+Python, CI template that uses HTML CSS JS and Node.js
 
 ## **Deployment**
 I deployed my website on GitHub pages via the following:
